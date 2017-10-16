@@ -2606,21 +2606,6 @@ dashboard-templates-selector {
   .overlay, .title, .btn, .example { display: none; }
 }
 
-#transactions-list {
-  .top {
-    height: 40px;
-    a.back-link { font-weight: normal; }
-    .pagination { margin: 0px; }
-  }
-
-  .table-container {
-    max-height: ~"calc(@{impac-big-widget-size} - 60px)";
-    overflow: auto;
-    tr.total { font-weight: bold; }
-    input.btn.btn-xs { margin-top: -2px; }
-  }
-}
-
 .analytics common-delete-widget {
   text-align: center;
   font-size: 13px;
@@ -2664,6 +2649,21 @@ dashboard-templates-selector {
     p { padding: 0px 10px; }
 
     button.btn { margin-top: 20px; }
+  }
+}
+
+#transactions-list {
+  .top {
+    height: 40px;
+    a.back-link { font-weight: normal; }
+    .pagination { margin: 0px; }
+  }
+
+  .table-container {
+    max-height: ~"calc(@{impac-big-widget-size} - 60px)";
+    overflow: auto;
+    tr.total { font-weight: bold; }
+    input.btn.btn-xs { margin-top: -2px; }
   }
 }
 
